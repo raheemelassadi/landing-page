@@ -7,8 +7,15 @@ module.exports = {
       lightGrayBlue: 'hsl(220, 16%, 96%)',
       blueGray: 'hsl(233, 8%, 62%)',
       darkBlue: 'hsl(233, 26%, 24%)',
+      limeGreen: 'hsl(136, 65%, 51%)',
+      brightCyan: 'hsl(192, 70%, 51%)',
+      veryLightGray: 'hsl(0, 0%, 98%)',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+      'publicSans': ['Public Sans', 'sans-serif']
+      },
+    },
   },
   plugins: [],
 }
