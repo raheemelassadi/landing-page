@@ -16,7 +16,7 @@
 
 <body>
 
-  <nav class="flex items-center justify-between flex-wrap p-8 bg-white md:px-20 z-50 top-0 sticky font-publicSans">
+  <nav class="flex items-center justify-between flex-wrap p-8 bg-white md:px-[200px] z-50 top-0 sticky font-publicSans">
     <div class="flex items-center mr-6 flex-shrink-0">
       <svg xmlns="http://www.w3.org/2000/svg" width="139" height="20">
         <defs>
@@ -70,13 +70,17 @@
       </div>
     </div>
   </nav>
-  <div class="bg-veryLightGray relative">
-    <div class="text-container w-1/4">
-      <h1 class="text-5xl font-publicSans">Next Generation Digital Banking</h1>
-      <p class="font-publicSans">Take your financial life online. Your Easybank account</br> will be a one-stop-shop for spending, saving,</br> budgeting, investing, and much more.</p>
-
+  <div class="bg-veryLightGray relative grid gap-y-1 ">
+    <div class="text-container w-3/4 grid gap-y-0 py-20 px-[200px] items-center">
+      <h1 class="text-5xl font-publicSans h-3 text-darkBlue">Next generation </br>digital banking</h1>
+      <p class="font-publicSans h-1 text-blueGray -my-[10px] mt-[2px]">Take your financial life online. Your Easybank account</br> will be a one-stop-shop for spending, saving,</br> budgeting, investing, and much more.</p>
+      <div>
+        <a href="#"
+          class="inline-block text-sm px-8 py-4 leading-none rounded-full text-white hover:text-teal-500 hover:bg-white -my-8 bg-gradient-to-r from-limeGreen to-brightCyan hover:opacity-75 flex justify-start w-40">Request
+          Invite</a>
     </div>
-      <img class="absolute -right-[200px] -top-[150px] object-cover w-2/4 h-full z-0" src="bg-intro-desktop.png" alt="blue and green morph">
+    </div>
+      <img class="absolute lg:-right-[200px] lg:-top-[150px] object-cover lg:w-2/4 h-full -z-6" src="bg-intro-desktop.png" alt="blue and green morph">
   </div>
 
   <div id="app"></div>
