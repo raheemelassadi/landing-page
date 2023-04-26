@@ -10,6 +10,7 @@ module.exports = {
       limeGreen: 'hsl(136, 65%, 51%)',
       brightCyan: 'hsl(192, 70%, 51%)',
       veryLightGray: 'hsl(0, 0%, 98%)',
+      grayishBlue: 'hsl(233, 8%, 62%)',
     },
     extend: {
       fontFamily: {
