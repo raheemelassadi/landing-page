@@ -13,9 +13,15 @@ module.exports = {
       grayishBlue: 'hsl(233, 8%, 62%)',
     },
     extend: {
+      clipPath: {
+      'bottom-triangle': 'polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 75%)',
+      },
       fontFamily: {
       'publicSans': ['Public Sans', 'sans-serif']
       },
+    },
+    variants: {
+      clipPath: ['responsive'],
     },
   },
   plugins: [],
